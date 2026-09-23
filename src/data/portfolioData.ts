@@ -15,7 +15,7 @@ export const profileData = {
   whatsappUrl: 'https://wa.me/8801333655040?text=Hello%20Abdullah,%20I%20would%20like%20to%20discuss%20a%20project!',
   location: 'Malibag, Dhaka-1217, Bangladesh',
   locationBn: 'মালিবাগ, ঢাকা-১২১৭, বাংলাদেশ',
-  heroImage: 'https://i.postimg.cc/GmYRNcmS/Profile-pichture.png',
+  heroImage: 'https://i.postimg.cc/BnNvN8H6/cobi.png',
   experienceYears: '3+',
   completedProjects: '25+',
   clientSatisfaction: '80%',
@@ -26,7 +26,7 @@ export const profileData = {
     phone: 'tel:+8801333655040',
     facebook: 'https://facebook.com',
     instagram: 'https://instagram.com',
-    youtube: 'https://youtube.com',
+    youtube: 'https://www.youtube.com/@AhmadAbdullah3642-u9d',
     linkedin: 'https://linkedin.com',
   }
 };
@@ -49,7 +49,7 @@ export const videoProjects: VideoProject[] = [
     aspectRatio: '16:9',
     description: 'High-quality video production and editing showcase with dynamic storytelling, smooth pacing, and immersive audio (Dle0XsVPjX4).',
     descriptionBn: 'ডায়নামিক স্টোরিটেলিং, নিখুঁত পেসিং ও হাই-কোয়ালিটি সাউন্ড মাস্টারিংয়ে তৈরি আকর্ষণীয় ভিডিও এডিট (ইউটিউব প্রজেক্ট ০১)।',
-    toolsUsed: ['Premiere Pro', 'After Effects', 'DaVinci Resolve'],
+    toolsUsed: ['Premiere Pro', 'After Effects', 'Photoshop'],
     keyFeatures: [
       'Cinematic Timeline Editing',
       'Dynamic Pacing & Rhythm Cuts',
@@ -70,15 +70,15 @@ export const videoProjects: VideoProject[] = [
     category: 'commercial',
     categoryLabel: 'Brand Campaign & Promo',
     categoryLabelBn: 'ব্র্যান্ড ক্যাম্পেইন ও প্রোমো',
-    youtubeId: 'UuFHtTg23yc',
-    youtubeEmbedUrl: 'https://www.youtube.com/embed/UuFHtTg23yc?list=PLP4R5n0ZocGw&index=2&autoplay=1&rel=0',
+    youtubeId: '-x-frIUw2As',
+    youtubeEmbedUrl: 'https://www.youtube.com/embed/-x-frIUw2As?autoplay=1&rel=0',
     videoSrc: '/videos/vedio 2.mp4',
-    thumbnail: 'https://img.youtube.com/vi/UuFHtTg23yc/maxresdefault.jpg',
+    thumbnail: 'https://img.youtube.com/vi/-x-frIUw2As/maxresdefault.jpg',
     duration: 'Full HD',
     client: 'Brand Media',
     views: 'Featured Work',
     aspectRatio: '16:9',
-    description: 'Engaging brand campaign edit with clean aesthetic framing, seamless transitions, and emotive background score (UuFHtTg23yc).',
+    description: 'Engaging brand campaign edit with clean aesthetic framing, seamless transitions, and emotive background score (-x-frIUw2As).',
     descriptionBn: 'আকর্ষণীয় ব্র্যান্ড ক্যাম্পেইন ভিডিও, নিখুঁত ট্রানজিশন ও ইমোটিভ মিউজিক সিঙ্কিং সমৃদ্ধ প্রজেক্ট ০২ (ইউটিউব প্রজেক্ট ০২)।',
     toolsUsed: ['Premiere Pro', 'After Effects', 'Sound FX'],
     keyFeatures: [
@@ -96,33 +96,33 @@ export const videoProjects: VideoProject[] = [
   },
   {
     id: 'vedio-3',
-    title: 'Featured Video Project 03',
-    titleBn: 'ফিচার্ড ভিডিও প্রজেক্ট ০৩ (Vedio 3)',
-    category: 'reels',
-    categoryLabel: 'Video Reel & Promo',
-    categoryLabelBn: 'ভিডিও রিলস ও প্রোমো',
-    youtubeId: 'zHJPI2p-R00',
-    youtubeEmbedUrl: 'https://www.youtube.com/embed/zHJPI2p-R00?list=PLP4R5n0ZocGw&index=3&autoplay=1&rel=0',
-    videoSrc: '/videos/vedio 3.mp4',
-    thumbnail: 'https://img.youtube.com/vi/zHJPI2p-R00/maxresdefault.jpg',
+    title: 'Podcast Video Edit',
+    titleBn: 'পডকাস্ট ভিডিও এডিট (Podcast Video)',
+    category: 'commercial',
+    categoryLabel: 'Podcast Video',
+    categoryLabelBn: 'পডকাস্ট ভিডিও',
+    youtubeId: 'rfYx07SsAtU',
+    youtubeEmbedUrl: 'https://www.youtube.com/embed/rfYx07SsAtU?autoplay=1&rel=0',
+    videoSrc: 'https://www.youtube.com/watch?v=rfYx07SsAtU',
+    thumbnail: 'https://img.youtube.com/vi/rfYx07SsAtU/maxresdefault.jpg',
     duration: 'Full HD',
-    client: 'Featured Production',
-    views: 'Viral Edit',
+    client: 'Ahmad Abdullah (3642)',
+    views: 'Podcast Edit',
     aspectRatio: '16:9',
-    description: 'High-retention creative video edit optimized for digital engagement, kinetic typography, and fast-paced visual storytelling (zHJPI2p-R00).',
-    descriptionBn: 'সোশ্যাল মিডিয়া ও ডিজিটাল প্ল্যাটফর্মের জন্য অপ্টিমাইজড হাই-রিটেনশন ভিডিও এডিট, ডায়নামিক কাটস ও সাবটাইটেল (ইউটিউব প্রজেক্ট ০৩)।',
-    toolsUsed: ['Premiere Pro', 'CapCut Pro', 'After Effects'],
+    description: 'Professional high-engagement Podcast Video edit featuring clean multicam switching, crisp audio mastering, sound effects, subtitles, and dynamic pacing.',
+    descriptionBn: 'প্রফেশনাল মাল্টিক্যাম পডকাস্ট ভিডিও এডিটিং — ক্রিস্প অডিও মাস্টারিং, ডায়নামিক কাটস, সাউন্ড এফেক্টস ও সাবটাইটেল সহ হাই-রিটেনশন ভিডিও প্রোডাকশন।',
+    toolsUsed: ['Premiere Pro', 'Audition', 'After Effects'],
     keyFeatures: [
-      'Instant Hook Retention Focus',
-      'Fast-Paced Micro Cuts',
-      'Animated Subtitles & Kinetic Text',
-      'Trend-Focused Audio Synchronization'
+      'Multicam Podcast Pacing & Transitions',
+      'Studio Quality Audio & Noise Reduction',
+      'Animated Subtitles & Dynamic Hooks',
+      'Color Grading & 1080p Full HD Render'
     ],
     keyFeaturesBn: [
-      'ইনস্ট্যান্ট ৩-সেকেন্ড হুক অপ্টিমাইজেশন',
-      'ফাস্ট-পেসড মাইক্রো কাটস',
-      'অ্যানিমেটেড সাবটাইটেল ও টেক্সট',
-      'ট্রেন্ড-ফোকাসড অডিও সিঙ্ক'
+      'মাল্টিক্যাম পডকাস্ট ট্রানজিশন ও স্মুথ কাটস',
+      'স্টুডিও কোয়ালিটি সাউন্ড ও নয়েজ রিডাকশন',
+      'অ্যানিমেটেড সাবটাইটেল ও ডায়নামিক হুক',
+      'কালার গ্রেডিং ও ১০৮০পি ফুল এইচডি রেন্ডার'
     ]
   },
   {
@@ -173,7 +173,7 @@ export const videoProjects: VideoProject[] = [
     aspectRatio: '16:9',
     description: 'Commercial product showcase video and dynamic edit emphasizing features, lighting contours, and persuasive pacing (NZNfxzjELio).',
     descriptionBn: 'প্রোডাক্ট ফিচার হাইলাইটিং, নিখুঁত লাইটিং ও কনভার্সন-ফোকাসড পেসিংয়ে তৈরি কমার্শিয়াল ভিডিও বিজ্ঞাপন (ইউটিউব প্রজেক্ট ০৫)।',
-    toolsUsed: ['Premiere Pro', 'DaVinci Resolve', 'After Effects'],
+    toolsUsed: ['Premiere Pro', 'After Effects', 'Photoshop'],
     keyFeatures: [
       'Product Feature Highlighting',
       'Color Tuning & Contrast Control',
@@ -204,7 +204,7 @@ export const videoProjects: VideoProject[] = [
     aspectRatio: '16:9',
     description: 'Fluid motion design and creative video edit incorporating kinetic title graphics, visual effects, and layered sound mastering (7YcC4i3vZhM).',
     descriptionBn: 'কাইনেটিক টাইটেল গ্রাফিক্স, ভিজ্যুয়াল ইফেক্টস এবং লেয়ার্ড সাউন্ড মাস্টারিং সমৃদ্ধ ক্রিয়েটিভ ভিডিও প্রজেক্ট ০৬ (ইউটিউব প্রজেক্ট ০৬)।',
-    toolsUsed: ['After Effects', 'Premiere Pro', 'DaVinci Resolve'],
+    toolsUsed: ['After Effects', 'Premiere Pro', 'Photoshop'],
     keyFeatures: [
       'Custom Vector Motion Animation',
       'Smooth Easing Motion Curves',
@@ -220,33 +220,33 @@ export const videoProjects: VideoProject[] = [
   },
   {
     id: 'vedio-7',
-    title: 'Featured Video Project 07',
-    titleBn: 'ফিচার্ড ভিডিও প্রজেক্ট ০৭ (Vedio 7)',
+    title: 'Brand Promo Video',
+    titleBn: 'ব্র্যান্ড প্রোমো ভিডিও (Brand Promo Video)',
     category: 'commercial',
-    categoryLabel: 'Cinematic Teaser & Edit',
-    categoryLabelBn: 'সিনেমাটিক টিজার ও এডিট',
-    youtubeId: 'bU3ueu3pMHs',
-    youtubeEmbedUrl: 'https://www.youtube.com/embed/bU3ueu3pMHs?list=PLLwkp30bJegk&index=3&autoplay=1&rel=0',
-    videoSrc: '/videos/vedio 7.mp4',
-    thumbnail: 'https://img.youtube.com/vi/bU3ueu3pMHs/maxresdefault.jpg',
+    categoryLabel: 'Brand Promo Video',
+    categoryLabelBn: 'ব্র্যান্ড প্রোমো ভিডিও',
+    youtubeId: 'waYDZJsrJcU',
+    youtubeEmbedUrl: 'https://www.youtube.com/embed/waYDZJsrJcU?autoplay=1&rel=0',
+    videoSrc: 'https://www.youtube.com/watch?v=waYDZJsrJcU',
+    thumbnail: 'https://img.youtube.com/vi/waYDZJsrJcU/maxresdefault.jpg',
     duration: 'Full HD',
-    client: 'Event & Brand Media',
-    views: 'Featured Work',
+    client: 'Ahmad Abdullah (3642)',
+    views: 'Brand Promo',
     aspectRatio: '16:9',
-    description: 'Suspenseful teaser and dynamic video production with rhythmic sound layering, color grade, and impactful visual transitions (bU3ueu3pMHs).',
-    descriptionBn: 'অডিয়েন্সের আগ্রহ বৃদ্ধিতে তৈরি ছন্দময় সিনেমাটিক টিজার ও ভিডিও এডিট, নিখুঁত ট্রানজিশন ও আবহ সঙ্গীতসহ (ইউটিউব প্রজেক্ট ০৭)।',
-    toolsUsed: ['Premiere Pro', 'After Effects', 'DaVinci Resolve'],
+    description: 'High-impact Brand Promo Video featuring polished commercial editing, rhythmic cuts, kinetic typography, and seamless visual branding.',
+    descriptionBn: 'উচ্চমানের ব্র্যান্ড প্রোমো ভিডিও এডিটিং — কমার্শিয়াল কালার গ্রেডিং, কাইনেটিক টেক্সট, নিখুঁত ট্রানজিশন ও ব্র্যান্ড ভিজ্যুয়ালাইজেশন।',
+    toolsUsed: ['Premiere Pro', 'After Effects'],
     keyFeatures: [
-      'Tension & Build-up Pacing',
-      'Multi-Track Audio Engineering',
-      'Dramatic Lighting Accents',
-      'Title Card Animation'
+      'Commercial Brand Storytelling & Hook',
+      'Dynamic Typography & Logo Reveal',
+      'Impactful Sound Design & Music Sync',
+      'Color Grading & 1080p Full HD Master'
     ],
     keyFeaturesBn: [
-      'টেনশন ও ড্রামাটিক পেসিং',
-      'মাল্টি-ট্র্যাক অডিও সাউন্ডস্কেপ',
-      'সিনেমাটিক লাইটিং অ্যাকসেন্ট',
-      'টাইটেল কার্ড অ্যানিমেশন'
+      'কমার্শিয়াল ব্র্যান্ড স্টোরিটেলিং ও হুক',
+      'ডায়নামিক টাইপোগ্রাফি ও ব্র্যান্ড ভিজ্যুয়াল',
+      'ইমপ্যাক্টফুল সাউন্ড ডিজাইন ও মিউজিক সিঙ্ক',
+      'কালার গ্রেডিং ও ১০৮০পি ফুল এইচডি রেন্ডার'
     ]
   },
   {
@@ -266,7 +266,7 @@ export const videoProjects: VideoProject[] = [
     aspectRatio: '16:9',
     description: 'Fast-paced storytelling video production crafted with quick dynamic cuts, animated b-roll, and punchy motion visuals (mlxHgcEWd1s).',
     descriptionBn: 'দ্রুতগতির ডায়নামিক কাট, অ্যানিমেটেড বি-রোল ও সিনেমাটিক ভিজ্যুয়াল সম্বলিত ক্রিয়েটিভ ভিডিও এডিট (ইউটিউব প্রজেক্ট ০৮)।',
-    toolsUsed: ['Premiere Pro', 'After Effects', 'DaVinci Resolve'],
+    toolsUsed: ['Premiere Pro', 'After Effects'],
     keyFeatures: [
       'High-Speed Dynamic Cut Editing',
       'Animated B-Roll Overlays',
@@ -282,33 +282,33 @@ export const videoProjects: VideoProject[] = [
   },
   {
     id: 'vedio-9',
-    title: 'Featured Video Project 09',
-    titleBn: 'ফিচার্ড ভিডিও প্রজেক্ট ০৯ (Vedio 9)',
+    title: 'UI Motion Design',
+    titleBn: 'ইউআই মোশন ডিজাইন (UI Motion)',
     category: 'motion',
-    categoryLabel: 'Motion Design & VFX',
-    categoryLabelBn: 'মোশন ডিজাইন ও ভিএফএক্স',
-    youtubeId: 'gPzmlOO8SZA',
-    youtubeEmbedUrl: 'https://www.youtube.com/embed/gPzmlOO8SZA?list=PLLwkp30bJegk&index=4&autoplay=1&rel=0',
-    videoSrc: '/videos/vedio 9.mp4',
-    thumbnail: 'https://img.youtube.com/vi/gPzmlOO8SZA/maxresdefault.jpg',
+    categoryLabel: 'UI Motion & Animation',
+    categoryLabelBn: 'ইউআই মোশন ও অ্যানিমেশন',
+    youtubeId: 'VAKq3HKg_wE',
+    youtubeEmbedUrl: 'https://www.youtube.com/embed/VAKq3HKg_wE?autoplay=1&rel=0',
+    videoSrc: 'https://www.youtube.com/watch?v=VAKq3HKg_wE',
+    thumbnail: 'https://img.youtube.com/vi/VAKq3HKg_wE/maxresdefault.jpg',
     duration: 'Full HD',
-    client: 'Featured Production',
-    views: 'VFX Showcase',
+    client: 'Ahmad Abdullah (3642)',
+    views: 'UI Motion',
     aspectRatio: '16:9',
-    description: 'Advanced visual effects and motion composite showcasing dynamic pacing, visual tracking, masking, and particle aesthetics (gPzmlOO8SZA).',
-    descriptionBn: 'স্ক্রিন ট্র্যাকিং, মাস্কিং এবং ডায়নামিক ভিজ্যুয়াল এফেক্টসের সমন্বয়ে তৈরি অ্যাডভান্সড মোশন কম্পোজিট (ইউটিউব প্রজেক্ট ০৯)।',
-    toolsUsed: ['After Effects', 'Premiere Pro', 'DaVinci Resolve'],
+    description: 'Sleek UI motion animation and product interaction design showcasing modern micro-interactions, clean easing curves, interface reveals, and visual fidelity.',
+    descriptionBn: 'মডার্ন ইউআই মোশন ডিজাইন ও অ্যাপ/ওয়েব ইন্টারঅ্যাকশন অ্যানিমেশন — স্মুথ ইজিং কার্ভ, ইন্টারফেস ট্রানজিশন ও হাই-এন্ড প্রেজেন্টেশন।',
+    toolsUsed: ['After Effects', 'Figma', 'Premiere Pro'],
     keyFeatures: [
-      'Screen Replacement & Motion Tracking',
-      'Advanced Layer Masking & VFX',
-      'Particle & Glow Aesthetics',
-      'Seamless Visual Compositing'
+      'App & Web UI Micro-Interactions',
+      'Smooth Bezier Easing & Dynamic Timing',
+      'Modern Product Interaction Showcase',
+      'Full HD Crisp UI Video Presentation'
     ],
     keyFeaturesBn: [
-      'স্ক্রিন রিপ্লেসমেন্ট ও মোশন ট্র্যাকিং',
-      'অ্যাডভান্সড লেয়ার মাস্কিং ও ভিএফএক্স',
-      'পার্টিকেল ও গ্লো অ্যাকসেন্ট',
-      'সিমলেস ভিজ্যুয়াল কম্পোজিটিং'
+      'অ্যাপ ও ওয়েব ইউআই মাইক্রো-ইন্টারঅ্যাকশন',
+      'স্মুথ বেজিয়ার ইজিং ও পারফেক্ট টাইমিং',
+      'মডার্ন প্রোডাক্ট ইন্টারঅ্যাকশন শোকেস',
+      'ফুল এইচডি ক্রিস্প ইউআই ভিডিও প্রেজেন্টেশন'
     ]
   },
   {
@@ -328,7 +328,7 @@ export const videoProjects: VideoProject[] = [
     aspectRatio: '16:9',
     description: 'Comprehensive high-impact video edit combining motion graphics, dramatic pacing, and professional color grading (UuFHtTg23yc).',
     descriptionBn: 'মোশন গ্রাফিক্স, ড্রামাটিক পেসিং এবং কালার গ্রেডিংয়ের সমন্বয়ে তৈরি হাই-ইমপ্যাক্ট ভিডিও প্রজেক্ট ১০ (ইউটিউব প্রজেক্ট ১০)।',
-    toolsUsed: ['Premiere Pro', 'After Effects', 'DaVinci Resolve'],
+    toolsUsed: ['Premiere Pro', 'After Effects'],
     keyFeatures: [
       'Master Showreel Composition',
       'Precision Beat-Synced Cuts',
@@ -340,6 +340,68 @@ export const videoProjects: VideoProject[] = [
       'প্রেসিশন বিট-সিঙ্কড কাটস',
       'সিনেমাটিক কালার মাস্টারিং',
       'হাই-ইমপ্যাক্ট সাউন্ড ডিজাইন'
+    ]
+  },
+  {
+    id: 'vedio-11',
+    title: '3D Video Animation & Production',
+    titleBn: '৩ডি ভিডিও অ্যানিমেশন ও প্রোডাকশন (3D Video)',
+    category: 'motion',
+    categoryLabel: '3D Animation & VFX',
+    categoryLabelBn: '৩ডি অ্যানিমেশন ও ভিএফএক্স',
+    youtubeId: 'zHJPI2p-R00',
+    youtubeEmbedUrl: 'https://www.youtube.com/embed/zHJPI2p-R00?autoplay=1&rel=0',
+    videoSrc: 'https://www.youtube.com/watch?v=zHJPI2p-R00',
+    thumbnail: 'https://img.youtube.com/vi/zHJPI2p-R00/maxresdefault.jpg',
+    duration: 'Full HD',
+    client: 'Ahmad Abdullah (3642)',
+    views: '3D Showcase',
+    aspectRatio: '16:9',
+    description: 'High-fidelity 3D motion design, realistic lighting, material simulation, dynamic camera movement, and cinematic 3D visual storytelling.',
+    descriptionBn: 'উচ্চমানের থ্রি-ডি মোশন গ্রাফিক্স, রিয়েলিস্টিক লাইটিং ও ম্যাটেরিয়াল সিমুলেশন এবং ডায়নামিক ক্যামেরা মুভমেন্ট সমৃদ্ধ সিনেমাটিক ৩ডি ভিডিও প্রোডাকশন।',
+    toolsUsed: ['Blender', 'After Effects', 'Premiere Pro'],
+    keyFeatures: [
+      'Realistic 3D Lighting & Shadow Rendering',
+      'Dynamic Camera Motion & Depth Parallax',
+      '3D Object Simulation & Compositing',
+      'Full HD 1080p Crisp Master Output'
+    ],
+    keyFeaturesBn: [
+      'রিয়েলিস্টিক থ্রি-ডি লাইটিং ও শ্যাডো রেন্ডারিং',
+      'ডায়নামিক ক্যামেরা মোশন ও ডেপথ প্যারালাক্স',
+      'থ্রি-ডি অবজেক্ট সিমুলেশন ও কম্পোজিটিং',
+      'ফুল এইচডি ১০৮০পি ক্রিস্প মাস্টার আউটপুট'
+    ]
+  },
+  {
+    id: 'vedio-12',
+    title: 'UI Motion & Interaction Design',
+    titleBn: 'ইউআই মোশন ও অ্যাপ ইন্টারঅ্যাকশন (UI Motion)',
+    category: 'motion',
+    categoryLabel: 'UI Motion Design',
+    categoryLabelBn: 'ইউআই মোশন ডিজাইন',
+    youtubeId: 'bU3ueu3pMHs',
+    youtubeEmbedUrl: 'https://www.youtube.com/embed/bU3ueu3pMHs?autoplay=1&rel=0',
+    videoSrc: 'https://www.youtube.com/watch?v=bU3ueu3pMHs',
+    thumbnail: 'https://img.youtube.com/vi/bU3ueu3pMHs/maxresdefault.jpg',
+    duration: 'Full HD',
+    client: 'Ahmad Abdullah (3642)',
+    views: 'UI Interaction',
+    aspectRatio: '16:9',
+    description: 'Seamless UI/UX interaction animation, component transitions, micro-interactions, and high-impact digital product presentation.',
+    descriptionBn: 'সিমলেস ইউআই/ইউএক্স ইন্টারঅ্যাকশন অ্যানিমেশন, কম্পোনেন্ট ট্রানজিশন, মাইক্রো-ইন্টারঅ্যাকশন এবং ডিজিটাল প্রোডাক্ট ভিডিও প্রেজেন্টেশন।',
+    toolsUsed: ['After Effects', 'Figma', 'Premiere Pro'],
+    keyFeatures: [
+      'Fluid Micro-Interactions & Component Flow',
+      'Modern Mobile & Web UI Showcase',
+      'Rhythmic Audio Design & Synced Beats',
+      'High-Retention Visual Pace'
+    ],
+    keyFeaturesBn: [
+      'ফ্লুইড মাইক্রো-ইন্টারঅ্যাকশন ও কম্পোনেন্ট ফ্লো',
+      'মডার্ন মোবাইল ও ওয়েব ইউআই শোকেস',
+      'ছন্দময় সাউন্ড ডিজাইন ও অডিও সিঙ্ক',
+      'হাই-রিটেনশন ভিজ্যুয়াল পেস'
     ]
   }
 ];
@@ -511,7 +573,7 @@ export const skillsData: SkillItem[] = [
     description: 'Professional editing, visual storytelling, motion graphics & post-production.',
     descriptionBn: 'প্রফেশনাল এডিটিং, স্টোরিটেলিং, মোশন গ্রাফিক্স ও পোস্ট-প্রোডাকশন।',
     iconName: 'Video',
-    tools: ['Premiere Pro', 'After Effects', 'DaVinci Resolve', 'CapCut Pro']
+    tools: ['Premiere Pro', 'After Effects']
   },
   {
     id: 'graphic-design',
@@ -520,7 +582,7 @@ export const skillsData: SkillItem[] = [
     description: 'Creative visual design, branding, social media & promotional materials.',
     descriptionBn: 'ক্রিয়েটিভ ভিজ্যুয়াল ডিজাইন, ব্র্যান্ডিং, সোশ্যাল মিডিয়া ও প্রমোশনাল ম্যাটেরিয়াল।',
     iconName: 'Palette',
-    tools: ['Photoshop', 'Illustrator', 'Canva Pro']
+    tools: ['Photoshop', 'Illustrator']
   },
   {
     id: 'creative-visualization',
@@ -564,11 +626,7 @@ export const toolsList = [
   { name: 'Adobe Premiere Pro', category: 'Editing', icon: 'Film' },
   { name: 'Adobe After Effects', category: 'Motion VFX', icon: 'Sparkles' },
   { name: 'Adobe Photoshop', category: 'Design', icon: 'Image' },
-  { name: 'Adobe Illustrator', category: 'Vector', icon: 'PenTool' },
-  { name: 'DaVinci Resolve', category: 'Color & Grade', icon: 'Sliders' },
-  { name: 'CapCut Pro', category: 'Shorts & Reels', icon: 'Scissors' },
-  { name: 'Canva Pro', category: 'Graphics', icon: 'Layout' },
-  { name: 'Adobe Audition', category: 'Audio Mastery', icon: 'Headphones' }
+  { name: 'Adobe Illustrator', category: 'Vector', icon: 'PenTool' }
 ];
 
 export const academicEducation: AcademicEducation[] = [
@@ -593,17 +651,6 @@ export const academicEducation: AcademicEducation[] = [
     desc: 'Highest academic qualification in Islamic Studies & Hadith literature.',
     descBn: 'ইসলামিক স্টাডিজ ও হাদিস শাস্ত্রের সর্বোচ্চ স্তর।',
     iconType: 'BookOpen'
-  },
-  {
-    degree: 'Hifzul Qur\'an',
-    degreeBn: 'হিফজুল কুরআন',
-    year: '2014',
-    yearBn: '২০১৪',
-    status: 'Completed',
-    statusBn: 'সম্পন্ন',
-    desc: 'Successful memorization of the Holy Qur\'an with Tajweed.',
-    descBn: 'সম্পূর্ণ পবিত্র কুরআন হিফজ ও তাজবীদ সম্পন্ন।',
-    iconType: 'Book'
   }
 ];
 
@@ -621,7 +668,7 @@ export const professionalCourse: ProfessionalCourse = {
     {
       name: 'Graphic Design',
       nameBn: 'গ্রাফিক ডিজাইন',
-      tools: 'Photoshop, Illustrator & Canva Pro'
+      tools: 'Photoshop & Illustrator'
     },
     {
       name: 'Meta Marketing',

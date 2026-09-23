@@ -72,9 +72,7 @@ export const EducationSection: React.FC<EducationSectionProps> = ({ lang }) => {
                 return (
                   <div
                     key={idx}
-                    className={`p-4 rounded-2xl bg-[#070b14]/85 border border-sky-500/25 hover:border-sky-400/60 transition-all duration-300 backdrop-blur-xl shadow-[0_4px_20px_rgba(0,0,0,0.6)] flex flex-col justify-between group ${
-                      idx === 0 ? 'sm:col-span-2' : ''
-                    }`}
+                    className="p-4 rounded-2xl bg-[#070b14]/85 border border-sky-500/25 hover:border-sky-400/60 transition-all duration-300 backdrop-blur-xl shadow-[0_4px_20px_rgba(0,0,0,0.6)] flex flex-col justify-between group"
                   >
                     <div>
                       <div className="flex items-center justify-between gap-2 mb-2.5">

@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { VideoProject, Language } from '../types';
 import { profileData } from '../data/portfolioData';
-import { X, Play, Clock, CheckCircle2, MessageSquareCode, Layers } from 'lucide-react';
+import { X, Play, Clock, CheckCircle2, MessageSquareCode, Layers, ExternalLink, Youtube } from 'lucide-react';
 
 interface VideoModalProps {
   project: VideoProject | null;
@@ -64,13 +64,45 @@ export const VideoModal: React.FC<VideoModalProps> = ({ project, isOpen, onClose
 
         {/* Modal Body with Scrollable Area */}
         <div className="overflow-y-auto p-4 sm:p-6 space-y-6">
-          {/* Video Player Container (Supports YouTube, HTML5 MP4 & Vimeo) */}
+          {/* Video Player Container (Supports YouTube, Channel, HTML5 MP4 & Vimeo) */}
           <div
             className={`relative mx-auto rounded-2xl overflow-hidden bg-black border border-white/10 shadow-2xl ${
               isVertical ? 'max-w-[340px] aspect-[9/16]' : 'w-full aspect-video'
             }`}
           >
-            {project.youtubeEmbedUrl || project.youtubeId ? (
+            {project.youtubeChannelUrl || (project.videoSrc && project.videoSrc.includes('youtube.com/@')) ? (
+              <div className="w-full h-full flex flex-col items-center justify-center p-6 text-center bg-gradient-to-br from-[#1a0505] via-[#070b14] to-black relative overflow-hidden">
+                {/* Background glow */}
+                <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(239,68,68,0.2)_0%,transparent_70%)] pointer-events-none" />
+                
+                <div className="relative z-10 flex flex-col items-center max-w-md">
+                  <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-2xl bg-red-600/20 border-2 border-red-500/60 flex items-center justify-center text-red-500 shadow-[0_0_30px_rgba(239,68,68,0.5)] mb-4 animate-pulse">
+                    <Youtube className="w-9 h-9 sm:w-11 sm:h-11 fill-red-500 text-transparent" />
+                  </div>
+                  <span className="px-3 py-1 rounded-full text-xs font-mono font-bold bg-red-500/20 text-red-300 border border-red-500/40 mb-2">
+                    @AhmadAbdullah3642-u9d
+                  </span>
+                  <h3 className="text-lg sm:text-2xl font-black text-white tracking-tight mb-2">
+                    {lang === 'bn' ? 'আহমাদ আব্দুল্লাহ অফিসিয়াল ইউটিউব চ্যানেল' : 'Ahmad Abdullah YouTube Channel'}
+                  </h3>
+                  <p className="text-xs sm:text-sm text-slate-300 mb-5 leading-relaxed">
+                    {lang === 'bn'
+                      ? 'ক্রিয়েটিভ ভিডিও এডিটিং, মোশন গ্রাফিক্স ও হাই-রিটেনশন ভিডিও দেখতে সরাসরি ইউটিউব চ্যানেলে ভিজিট করুন।'
+                      : 'Explore high-retention video edits, reels, dynamic motion visuals, and portfolio uploads directly on YouTube.'}
+                  </p>
+                  <a
+                    href={project.youtubeChannelUrl || project.videoSrc}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2.5 px-6 py-3 rounded-full bg-red-600 hover:bg-red-500 text-white font-extrabold text-xs sm:text-sm shadow-[0_0_25px_rgba(239,68,68,0.6)] hover:scale-105 transition-all cursor-pointer"
+                  >
+                    <Youtube className="w-5 h-5 fill-white text-transparent" />
+                    <span>{lang === 'bn' ? 'ইউটিউব চ্যানেলে ভিডিও দেখুন' : 'Watch Videos on YouTube'}</span>
+                    <ExternalLink className="w-4 h-4 ml-1" />
+                  </a>
+                </div>
+              </div>
+            ) : project.youtubeEmbedUrl || project.youtubeId ? (
               <iframe
                 src={project.youtubeEmbedUrl || `https://www.youtube.com/embed/${project.youtubeId}?autoplay=1&rel=0`}
                 title={project.title}
@@ -160,15 +192,40 @@ export const VideoModal: React.FC<VideoModalProps> = ({ project, isOpen, onClose
             <span>{lang === 'bn' ? 'আপনার কনটেন্টেও এমন ইমপ্যাক্ট তৈরি করতে চান?' : 'Want similar high-retention video results?'}</span>
           </div>
 
-          <a
-            href={whatsappUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-2.5 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold text-xs transition-all shadow-lg shadow-emerald-500/25 cursor-pointer"
-          >
-            <MessageSquareCode className="w-4 h-4" />
-            <span>{lang === 'bn' ? 'এই ভিডিও নিয়ে হোয়াটসঅ্যাপে কথা বলুন' : 'Discuss on WhatsApp'}</span>
-          </a>
+          <div className="flex flex-wrap items-center justify-center sm:justify-end gap-2.5 w-full sm:w-auto">
+            {project.youtubeId && !project.youtubeChannelUrl && (
+              <a
+                href={`https://www.youtube.com/watch?v=${project.youtubeId}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-red-600/90 hover:bg-red-600 text-white font-bold text-xs transition-all shadow-md cursor-pointer"
+              >
+                <Youtube className="w-4 h-4 fill-white text-transparent" />
+                <span>{lang === 'bn' ? 'ইউটিউবে দেখুন' : 'Watch on YouTube'}</span>
+                <ExternalLink className="w-3.5 h-3.5" />
+              </a>
+            )}
+            {project.youtubeChannelUrl && (
+              <a
+                href={project.youtubeChannelUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-xl bg-red-600 hover:bg-red-500 text-white font-bold text-xs transition-all shadow-lg shadow-red-600/25 cursor-pointer"
+              >
+                <Youtube className="w-4 h-4 fill-white text-transparent" />
+                <span>{lang === 'bn' ? 'ইউটিউব চ্যানেল ভিজিট করুন' : 'Visit YouTube Channel'}</span>
+              </a>
+            )}
+            <a
+              href={whatsappUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-2.5 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold text-xs transition-all shadow-lg shadow-emerald-500/25 cursor-pointer"
+            >
+              <MessageSquareCode className="w-4 h-4" />
+              <span>{lang === 'bn' ? 'এই বিষয়ে হোয়াটসঅ্যাপে কথা বলুন' : 'Discuss on WhatsApp'}</span>
+            </a>
+          </div>
         </div>
       </div>
     </div>

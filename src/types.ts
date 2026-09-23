@@ -13,6 +13,7 @@ export interface VideoProject {
   vimeoEmbedUrl?: string;
   youtubeId?: string;
   youtubeEmbedUrl?: string;
+  youtubeChannelUrl?: string;
   videoSrc?: string;
   isDirectVideo?: boolean;
   thumbnail: string;

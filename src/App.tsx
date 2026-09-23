@@ -50,7 +50,7 @@ export default function App() {
         />
 
         {/* Hero Banner with Portrait & Flame Visuals */}
-        <Hero lang={lang} />
+        <Hero lang={lang} onOpenVideo={handleOpenVideo} />
 
         {/* Featured Projects with Video & Design Tabs */}
         <ProjectsSection

@@ -62,8 +62,8 @@ export const ProjectsSection: React.FC<ProjectsSectionProps> = ({
 
           <p className="text-sm sm:text-base text-slate-300 max-w-2xl mx-auto">
             {lang === 'bn'
-              ? 'ইউটিউব ভিডিও, কমার্শিয়াল প্রোমো, সোশ্যাল মিডিয়া রিলস ও গ্রাফিক ডিজাইনের নির্বাচিত পোর্টফোলিও।'
-              : 'Featured showcase of commercial promos, viral social reels, motion graphics, and graphic design creatives.'}
+              ? 'ইউটিউব লং-ফর্ম, কমার্শিয়াল প্রোমো, সোশ্যাল মিডিয়া রিলস ও সিনেমাটিক ভিডিও এডিটের নির্বাচিত পোর্টফোলিও।'
+              : 'Featured showcase of commercial promos, viral social reels, motion graphics, and high-impact video edits.'}
           </p>
 
           {/* Primary Tabs Switcher */}
@@ -72,7 +72,7 @@ export const ProjectsSection: React.FC<ProjectsSectionProps> = ({
             <button
               onClick={() => setActiveTab('video')}
               id="filter-video-projects"
-              className={`flex items-center gap-2.5 px-5 sm:px-6 py-2.5 rounded-full text-xs sm:text-sm font-bold transition-all cursor-pointer ${
+              className={`flex items-center gap-2.5 px-6 sm:px-7 py-3 rounded-full text-xs sm:text-sm font-extrabold transition-all cursor-pointer ${
                 activeTab === 'video'
                   ? 'bg-gradient-to-r from-sky-500 to-blue-600 text-white shadow-[0_0_24px_rgba(56,189,248,0.55)] scale-105 border border-sky-400'
                   : 'bg-[#070b14]/80 text-slate-300 hover:text-white hover:bg-slate-900 border border-slate-800'
@@ -81,7 +81,7 @@ export const ProjectsSection: React.FC<ProjectsSectionProps> = ({
               <Film className={`w-4 h-4 ${activeTab === 'video' ? 'text-white' : 'text-sky-400'}`} />
               <span>{lang === 'bn' ? 'ভিডিও এডিটিং' : 'Video Editing'}</span>
               <span
-                className={`text-[11px] px-2 py-0.5 rounded-full font-mono font-bold ${
+                className={`text-[11px] px-2.5 py-0.5 rounded-full font-mono font-bold ${
                   activeTab === 'video' ? 'bg-black/40 text-sky-100' : 'bg-slate-800 text-slate-300'
                 }`}
               >
@@ -93,16 +93,16 @@ export const ProjectsSection: React.FC<ProjectsSectionProps> = ({
             <button
               onClick={() => setActiveTab('design')}
               id="filter-design-projects"
-              className={`flex items-center gap-2.5 px-5 sm:px-6 py-2.5 rounded-full text-xs sm:text-sm font-bold transition-all cursor-pointer ${
+              className={`flex items-center gap-2.5 px-6 sm:px-7 py-3 rounded-full text-xs sm:text-sm font-extrabold transition-all cursor-pointer ${
                 activeTab === 'design'
-                  ? 'bg-sky-400 text-slate-950 shadow-[0_0_24px_rgba(56,189,248,0.55)] scale-105 border border-sky-200 font-extrabold'
+                  ? 'bg-sky-400 text-slate-950 shadow-[0_0_24px_rgba(56,189,248,0.55)] scale-105 border border-sky-200'
                   : 'bg-[#070b14]/80 text-slate-300 hover:text-white hover:bg-slate-900 border border-slate-800'
               }`}
             >
               <Palette className={`w-4 h-4 ${activeTab === 'design' ? 'text-slate-950' : 'text-sky-400'}`} />
               <span>{lang === 'bn' ? 'গ্রাফিক ডিজাইন' : 'Graphic Design'}</span>
               <span
-                className={`text-[11px] px-2 py-0.5 rounded-full font-mono font-bold ${
+                className={`text-[11px] px-2.5 py-0.5 rounded-full font-mono font-bold ${
                   activeTab === 'design' ? 'bg-slate-950/20 text-slate-950' : 'bg-slate-800 text-slate-300'
                 }`}
               >
@@ -114,7 +114,7 @@ export const ProjectsSection: React.FC<ProjectsSectionProps> = ({
             <button
               onClick={() => setActiveTab('all')}
               id="filter-all-projects"
-              className={`flex items-center gap-2 px-4 py-2.5 rounded-full text-xs sm:text-sm font-semibold transition-all cursor-pointer ${
+              className={`flex items-center gap-2 px-5 py-3 rounded-full text-xs sm:text-sm font-bold transition-all cursor-pointer ${
                 activeTab === 'all'
                   ? 'bg-white/15 text-white border border-sky-400/40 shadow-[0_0_15px_rgba(56,189,248,0.2)]'
                   : 'bg-[#070b14]/80 text-slate-400 hover:text-white border border-slate-800'

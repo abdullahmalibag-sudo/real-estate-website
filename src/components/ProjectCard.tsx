@@ -89,7 +89,15 @@ export const VideoCard: React.FC<VideoCardProps> = ({ project, lang, onOpen }) =
           </div>
 
           <span className="text-xs font-bold text-sky-400 flex items-center gap-1 group-hover:translate-x-0.5 transition-transform">
-            <span>{lang === 'bn' ? 'প্লে করুন' : 'Watch'}</span>
+            <span>
+              {lang === 'bn'
+                ? project.youtubeChannelUrl
+                  ? 'চ্যানেল দেখুন'
+                  : 'প্লে করুন'
+                : project.youtubeChannelUrl
+                ? 'Channel'
+                : 'Watch'}
+            </span>
             <ArrowUpRight className="w-3.5 h-3.5" />
           </span>
         </div>

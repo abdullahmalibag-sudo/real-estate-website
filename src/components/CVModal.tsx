@@ -56,7 +56,7 @@ PROFESSIONAL TRAINING:
   Topics: Video Editing, Graphic Design, Meta Marketing, Generative AI Tools
 
 SOFTWARE PROFICIENCY:
-- Adobe Premiere Pro, Adobe After Effects, Adobe Photoshop, Adobe Illustrator, DaVinci Resolve, CapCut Pro
+- Adobe Premiere Pro, Adobe After Effects, Adobe Photoshop, Adobe Illustrator
     `.trim();
 
     navigator.clipboard.writeText(text);
@@ -171,9 +171,7 @@ SOFTWARE PROFICIENCY:
               {academicEducation.map((edu, idx) => (
                 <div
                   key={idx}
-                  className={`p-3.5 rounded-xl bg-white/[0.03] border border-white/10 print:border-slate-300 flex flex-col justify-between ${
-                    idx === 0 ? 'sm:col-span-2' : ''
-                  }`}
+                  className="p-3.5 rounded-xl bg-white/[0.03] border border-white/10 print:border-slate-300 flex flex-col justify-between"
                 >
                   <div>
                     <div className="flex items-center justify-between gap-2">

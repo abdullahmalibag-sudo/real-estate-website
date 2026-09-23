@@ -45,4 +45,12 @@ export const localVideoMap: Record<string, { src: string; thumb: string }> = {
     src: '/videos/vedio 10.mp4',
     thumb: 'https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=800&q=80',
   },
+  'vedio-11': {
+    src: '/videos/vedio 11.mp4',
+    thumb: 'https://img.youtube.com/vi/zHJPI2p-R00/maxresdefault.jpg',
+  },
+  'vedio-12': {
+    src: '/videos/vedio 12.mp4',
+    thumb: 'https://img.youtube.com/vi/bU3ueu3pMHs/maxresdefault.jpg',
+  },
 };
